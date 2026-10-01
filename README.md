@@ -4,11 +4,7 @@
 
 📍 Faisalabad, Pakistan | 🌐 Remote-ready
 
-[
-
-![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?logo=linkedin)
-
-](https://www.linkedin.com/in/aqsa-shoukat-392707422)
+🔗 LinkedIn: https://www.linkedin.com/in/aqsa-shoukat-392707422
 
 ---
 
@@ -98,7 +94,7 @@ QA-Portfolio/
 ## 📬 Contact
 
 - 📧 aqsashoukatl626@gmail.com
-- 💼 [LinkedIn](https://www.linkedin.com/in/aqsa-shoukat-392707422)
+- 💼 LinkedIn: https://www.linkedin.com/in/aqsa-shoukat-392707422
 - 🌍 Open to remote entry-level QA opportunities
 
 *This portfolio is actively maintained and updated as I continue building my QA skills.*
