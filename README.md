@@ -1,4 +1,4 @@
-# 👩‍💻 Aqsa Shoukat — Manual QA Portfolio
+it# 👩‍💻 Aqsa Shoukat — Manual QA Portfolio
 
 **Manual QA Analyst | Software Quality Assurance**
 
