@@ -96,7 +96,7 @@ QA-Portfolio/
 
 ## 📬 Contact
 
-- 📧 aqsashoukat1626@gmail.com
+- 📧 aqsashoukatl626@gmail.com
 - 💼 [LinkedIn](https://www.linkedin.com/in/
 aqsa-shoukat-392707422
 - 🌍 Open to remote entry-level QA opportunities
