@@ -1,4 +1,4 @@
-it# 👩‍💻 Aqsa Shoukat — Manual QA Portfolio
+# 👩‍💻 Aqsa Shoukat — Manual QA Portfolio
 
 **Manual QA Analyst | Software Quality Assurance**
 
@@ -53,7 +53,8 @@ Each bug report includes steps to reproduce, expected vs actual results, severit
 
 📄 **Documents:**
 - [Login_Module_25_Test_Cases.pdf](01-test-cases/Login_Module_25_Test_Cases.pdf)
-- [SauceDemo Test Summary Report (open folder)](02-test-reports)
+- [SauceDemo_Test_Summary_Report.pdf](02-test-reports/SauceDemo_Test_Summary_Report.pdf)
+- [All test reports (folder)](02-test-reports/)
 - [API_Testing_Report.pdf](04-api-testing/API_Testing_Report.pdf)
 
 ---
