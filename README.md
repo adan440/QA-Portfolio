@@ -1,13 +1,14 @@
- # 👩‍💻 Aqsa Shoukat — Manual QA Portfolio
+# 👩‍💻 Aqsa Shoukat — Manual QA Portfolio
 
 **Manual QA Analyst | Software Quality Assurance**
+
 📍 Faisalabad, Pakistan | 🌐 Remote-ready
 
 [
 
 ![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?logo=linkedin)
 
-](https://www.linkedin.com/in/YOUR-LINKEDIN-USERNAME)
+](https://www.linkedin.com/in/aqsa-shoukat-392707422)
 
 ---
 
@@ -25,17 +26,17 @@ This repository contains my hands-on QA work, including test cases, test reports
 
 Performed exploratory testing on the Buggy Cars Rating web application and identified **7 real bugs** logged in Jira.
 
-| Bug ID | Title | Severity |
-|--------|-------|----------|
-| BCBT-1 | Abusive content allowed in comment field | High |
-| BCBT-2 | Comment input box missing from car detail page | High |
-| BCBT-3 | Register button hidden when mobile keyboard is open | Medium |
-| BCBT-4 | Technical error message shown on duplicate registration | Medium |
-| BCBT-5 | Registration form visible after successful login | Medium |
-| BCBT-6 | Login field label is misleading on Registration page | Low |
-| BCBT-7 | Single character accepted as valid comment | Low |
+| Bug ID | Title |
+|--------|-------|
+| BCBT-1 | Abusive content allowed in comment field |
+| BCBT-2 | Comment input box missing from car detail page |
+| BCBT-3 | Register button hidden when mobile keyboard is open |
+| BCBT-4 | Technical error message shown on duplicate registration |
+| BCBT-5 | Registration form visible after successful login |
+| BCBT-6 | Login field label is misleading on Registration page |
+| BCBT-7 | Single character accepted as valid comment |
 
-Bug reports include: steps to reproduce, expected vs actual results, severity and priority, environment details and screenshots.
+Each bug report includes steps to reproduce, expected vs actual results, severity, environment details and screenshots.
 
 📄 **Reports:**
 - [BuggyCars_Bug_Report.pdf](03-bug-reports/BuggyCars_Bug_Report.pdf)
@@ -97,8 +98,7 @@ QA-Portfolio/
 ## 📬 Contact
 
 - 📧 aqsashoukatl626@gmail.com
-- 💼 [LinkedIn](https://www.linkedin.com/in/
-aqsa-shoukat-392707422
+- 💼 [LinkedIn](https://www.linkedin.com/in/aqsa-shoukat-392707422)
 - 🌍 Open to remote entry-level QA opportunities
 
 *This portfolio is actively maintained and updated as I continue building my QA skills.*
