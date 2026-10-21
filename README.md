@@ -61,4 +61,5 @@ All testing was done by me, by hand, on my phone. I used AI tools to help with t
 
 ## Contact
 
-LinkedIn: [add your LinkedIn profile link here]
+LinkedIn: https://www.linkedin.com/in/
+aqsa-shoukat-392707422
