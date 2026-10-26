@@ -8,9 +8,9 @@ Open to remote and entry level roles
 This repository holds the test reports I wrote while learning software testing. I test public demo websites by hand on my Android phone, and I also practiced sending API requests. Every report has the steps, the expected result, the actual result and screenshots as proof.
 
 I am at the start of my testing career, so I want to be clear about what this is. These are practice projects on demo sites. I did not test a real company product, I did not use test automation, and I have not tested a native mobile app yet. Each report has a section called **What I did not cover** so you can see where the limits are.
-
 ## Reports
-
+| Wikipedia Android App | Mobile app | 26 manual tests on search, reading articles, saving, rotation and airplane mode. No real bug found, 8 small notes. | [Report](reports/Wikipedia_Android_App_Test_Report.pdf) |
+| Google Keep Android App | Mobile app | 12 manual tests on making, editing, deleting and searching notes, and checking that notes stay after closing the app. No real bug found. | [Report](reports/Google_Keep_Android_App_Test_Report.pdf) |
 | Report | What I tested | Date | Result |
 |---|---|---|---|
 | [ParaBank](reports/ParaBank_Manual_Testing_Report.pdf) | Online banking demo: open account, transfer funds, bill pay, find transactions, update contact info, request loan | 6 Oct 2026 | 48 cases: 28 passed, 18 failed, 2 other |
@@ -23,7 +23,14 @@ I am at the start of my testing career, so I want to be clear about what this is
 | [Website status check](reports/Mini_Postman_Status_Check_Report.pdf) | Three GET requests to saucedemo.com with Mini Postman | Sept 2026 | 3 requests |
 
 There is also a one page overview: [Portfolio Summary](00_Portfolio_Summary.pdf).
+## Mobile app testing
 
+After testing websites, I started testing Android apps on my own phone, an Oppo A3 with Android 14. I used two public apps and I only did what a normal user can do. I did not edit Wikipedia, I did not log in and I did not donate.
+
+- **Wikipedia app.** I tested search with normal words, empty text, spaces, numbers, symbols and Urdu. I also tested reading, links, Back button, Find in article, text size, saving articles, rotating the phone, airplane mode and sending the app to the background.
+- **Google Keep.** I made, edited, deleted and searched notes, tried an empty note, a very long note and an Urdu note, and checked that the notes were still there after closing and opening the app.
+
+I did not find a real bug in either app. I did write down small things a user could trip over, and I also wrote what I could not test and why.
 ## Some of the problems I found
 
 - **ParaBank:** a transfer of a negative amount (-20) was accepted and money moved the wrong way between the accounts. Transfers of 0 were also accepted.
@@ -48,7 +55,7 @@ There is also a one page overview: [Portfolio Summary](00_Portfolio_Summary.pdf)
 - Screenshots as evidence
 
 ## What I am learning next
-
+- Testing a shopping app on my phone (cart, prices and checkout)
 - Testing mobile apps, not only websites in a phone browser
 - Writing functional test cases from my exploratory notes
 - Testing SauceDemo with the other demo users (problem_user, locked_out_user and others)
