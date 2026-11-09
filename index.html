@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Aqsa Shoukat | Software Tester</title>
+<style>
+:root{color-scheme:dark;--bg:#0d0f14;--card:#151922;--ink:#e8eef7;--mute:#a3afc2;--line:#2a303d;--ac:#5cc8ff;--chip:#1b2330}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:76px}
+body{margin:0;background:var(--bg);color:var(--mute);font:17px/1.7 -apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;padding:env(safe-area-inset-top,0px) 0 env(safe-area-inset-bottom,0px)}
+a{color:var(--ac);text-decoration:none}
+.mono{font-family:ui-monospace,Menlo,Consolas,monospace}
+nav{position:sticky;top:0;z-index:5;background:rgba(13,15,20,.96);border-bottom:1px solid var(--line);display:flex;align-items:center;justify-content:space-between;padding:12px 18px}
+.logo{font-weight:800;color:var(--ac);border:2px solid var(--ac);border-radius:8px;padding:2px 9px;letter-spacing:.04em}
+nav div{display:flex;gap:16px;font-size:.88rem}
+main{max-width:860px;margin:0 auto;padding:0 20px}
+.hero{padding:64px 0 40px}
+h1{color:#e6f0ff;font-size:2.3rem;line-height:1.2;margin:0 0 8px}
+.hero h2{font-size:1.6rem;line-height:1.3;margin:0 0 18px;color:#7d8aa3}
+.hero p{margin:0 0 12px}
+b.l{color:var(--ac)}
+.btns{display:flex;flex-wrap:wrap;gap:12px;margin-top:22px}
+.btn{border:1.5px solid var(--ac);border-radius:6px;padding:10px 20px;font-weight:600}
+.btn.fill{background:var(--ac);color:#0d0f14}
+section{padding:56px 0 8px}
+h3.sec{display:flex;gap:14px;align-items:baseline;color:#fff;font-size:1.7rem;margin:0 0 28px}
+h3.sec span{color:var(--ac);font-size:1rem}
+.tabs{display:flex;gap:0;border-bottom:1px solid var(--line);overflow-x:auto;margin-bottom:22px}
+.tabs button{background:none;border:0;border-bottom:3px solid transparent;color:var(--mute);font:inherit;font-size:.95rem;padding:10px 16px;cursor:pointer;white-space:nowrap}
+.tabs button.on{color:var(--ac);border-bottom-color:var(--ac)}
+ul.arrow{list-style:none;padding:0;margin:0}
+ul.arrow li{position:relative;padding-left:22px;margin-bottom:14px}
+ul.arrow li:before{content:"\25B8";position:absolute;left:0;color:var(--ac)}
+.cards{display:grid;gap:22px}
+.card{background:var(--card);border-radius:12px;padding:20px;box-shadow:0 8px 24px rgba(0,0,0,.22)}
+.card .tag{color:var(--ac);font-size:.82rem}
+.card h4{color:#fff;font-size:1.25rem;margin:4px 0 12px}
+.card ul{margin:0 0 14px;padding-left:20px}
+.card li{margin-bottom:8px;font-size:.96rem}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:14px}
+.chips span{background:var(--chip);border:1px solid var(--line);color:var(--ac);border-radius:999px;padding:3px 12px;font-size:.82rem}
+.card a.v{font-weight:600}
+h5{color:#fff;font-size:1.05rem;margin:26px 0 6px}
+.focus h6{color:var(--ac);font-size:1rem;margin:16px 0 2px}
+.focus p{margin:0}
+p{margin:0 0 14px}
+.sayhello{text-align:center;padding:40px 0 20px}
+.sayhello h3{color:#fff;font-size:2.2rem;margin:6px 0 14px}
+footer{max-width:860px;margin:0 auto;padding:40px 20px 56px;font-size:.88rem;text-align:center;color:#7d8aa3}
+</style>
+</head>
+<body>
+<nav><span class="logo mono">AS</span><div><a href="#tested">Tested</a><a href="#reports">Reports</a><a href="#about">About</a><a href="#contact">Contact</a></div></nav>
+<main>
+<div class="hero">
+<h1>Aqsa Shoukat</h1>
+<h2>Software Tester</h2>
+<p>I test websites and Android apps by hand on my own phone, and I write clear reports with screenshots as proof.</p>
+<p><b class="l">Currently:</b> Writing test reports and test cases for demo sites and public apps.</p>
+<p><b class="l">Based in:</b> Faisalabad, Punjab, Pakistan. Open to remote opportunities.</p>
+<div class="btns"><a class="btn fill" href="https://github.com/adan440/qa-portfolio">GitHub</a><a class="btn" href="https://www.linkedin.com/in/aqsa-shoukat-392707422">LinkedIn</a></div>
+</div>
+
+<section id="tested">
+<h3 class="sec"><span class="mono">01.</span>What I Have Tested</h3>
+<div class="tabs" id="tabs"></div>
+<ul class="arrow" id="tabbody"></ul>
+</section>
+
+<section id="reports">
+<h3 class="sec"><span class="mono">02.</span>Reports I Have Written</h3>
+<div class="cards" id="cards"></div>
+<p style="margin-top:22px"><a href="https://github.com/adan440/qa-portfolio/blob/HEAD/reports/00_Portfolio_Summary.pdf">One page overview (PDF)</a></p>
+</section>
+
+<section id="about">
+<h3 class="sec"><span class="mono">03.</span>About</h3>
+<p>I am at the start of my testing career, so I want to be clear about what this is. These are practice projects on public demo sites and public apps. I did not test a company’s own product and I did not use test automation. Every report has the steps, the expected result, the actual result and a section that says what I did not cover.</p>
+<h5>My work so far:</h5>
+<ul class="arrow">
+<li>12 reports and tables, with screenshots as proof</li>
+<li>23 SauceDemo test cases written as a test case table</li>
+<li>3 Android apps tested by hand on my phone</li>
+<li>7 bugs written as Jira tickets</li>
+</ul>
+<h5>How I test:</h5>
+<p>I explore first, then try the normal flow and then wrong or unusual input like empty fields, zero, negative numbers, very long text and spaces. On a phone I also try turning the phone, airplane mode and the Back button. When I have no requirement to compare with, I write an observation and not a bug.</p>
+<h5>How I use AI:</h5>
+<p>I use AI tools such as Claude, Gemini and ChatGPT as a helper. I run every test myself and take the screenshots. AI helps me with ideas for extra things to try, the wording of my reports, making the PDF files, checking my reports for mistakes and explaining things I do not know yet.</p>
+<div class="focus">
+<h5>Testing Focus</h5>
+<h6>Websites</h6><p>Manual and exploratory testing, negative and boundary tests, test cases</p>
+<h6>Android apps</h6><p>Search, saving data, rotation, airplane mode, Back button</p>
+<h6>Bugs</h6><p>Bug reports with severity, Jira tickets</p>
+<h6>APIs</h6><p>Swagger UI and Mini Postman</p>
+</div>
+<h5>What I am learning next:</h5>
+<ul class="arrow">
+<li>Writing more functional test cases from my exploratory notes</li>
+<li>Testing a shopping app where I can log in and test the cart</li>
+<li>Testing more mobile apps, including slow internet and low battery</li>
+<li>Using Postman on a real API, including POST, PUT and DELETE requests</li>
+</ul>
+</section>
+
+<section id="contact" class="sayhello">
+<div class="mono" style="color:var(--ac)">04. What’s Next?</div>
+<h3>Get In Touch</h3>
+<p>I am looking for my first testing role. If you have a question or an opportunity, please message me on LinkedIn.</p>
+<a class="btn" href="https://www.linkedin.com/in/aqsa-shoukat-392707422">Say Hello</a>
+</section>
+</main>
+<footer>All testing was done by me, by hand, on my phone. I used AI tools to help with the layout and wording of these documents.</footer>
+<script>
+var R="https://github.com/adan440/qa-portfolio/blob/HEAD/reports/";
+var tabs=[
+["Websites",[
+"<b>SauceDemo:</b> 23 test cases on login, products, cart and checkout, all passed. Also written as a test case table.",
+"<b>ParaBank:</b> 48 cases on a banking demo. A transfer of -20 was accepted and the money moved the wrong way.",
+"<b>OrangeHRM:</b> 17 cases on login and adding an employee: 12 passed, 1 failed and 4 observations.",
+"<b>CURA Healthcare:</b> 10 issues from testing on a phone, for example an appointment for a date in the past.",
+"<b>Buggy Cars Rating:</b> 7 defects found and logged in Jira as BCBT-1 to BCBT-7."]],
+["Android apps",[
+"<b>Wikipedia:</b> 26 tests on search, reading, saving, rotation, airplane mode and the Back button. No real bug.",
+"<b>Google Keep:</b> 12 tests on making, editing, deleting and searching notes, and notes staying after closing the app. No real bug.",
+"<b>Daraz:</b> 14 tests as a visitor. The cart needs a login and I did not log in, so I could not test it.",
+"The Sauce Labs demo shop app would not install on Android 14, so I chose Daraz instead."]],
+["APIs and bugs",[
+"<b>Swagger Petstore:</b> 11 cases with Swagger UI. The server accepted a pet with a status that is not allowed.",
+"<b>Mini Postman:</b> three GET requests to saucedemo.com. I only wrote what the responses showed.",
+"<b>Jira:</b> the same 7 Buggy Cars bugs as tickets, with the same severities as the bug report."]]];
+var cards=[
+["Android app","Daraz shopping app",["Tested as a visitor: search, product page, options and quantity, login wall and airplane mode.","No order and no login. The cart needs a login, so I wrote that I could not test it."],["Android","Exploratory","Shopping app"],"Daraz_Android_App_Test_Report.pdf"],
+["Android app","Google Keep",["Made, edited, deleted and searched notes, with an empty note, a very long note and an Urdu note.","Checked that the notes stay after closing the app. Delete asks first and has Undo."],["Android","Saving data","Urdu text"],"Google_Keep_Android_App_Test_Report.pdf"],
+["Android app","Wikipedia app",["Search with empty text, spaces, numbers, symbols, Urdu and very long text.","Also Find in article, saving articles, rotation, airplane mode and the Back button."],["Android","Search","Offline"],"Wikipedia_Android_App_Test_Report.pdf"],
+["Test cases","SauceDemo test case table",["The 23 SauceDemo tests as test cases with steps, test data, expected and actual results.","Positive and negative tests, with a status for each."],["Test cases","Excel"],"SauceDemo_Test_Cases.xlsx"],
+["Website report","SauceDemo",["Login, products, cart and checkout, with 8 login tests.","Wrong usernames, a wrong password, empty fields and the locked out user."],["Website","Negative tests"],"SauceDemo_Test_Report_FINAL.pdf"],
+["Website report","ParaBank",["48 cases on transfers, bill pay, transactions, contact info and a loan: 28 passed, 18 failed, 2 other.","A transfer of -20 was accepted and the money moved the wrong way."],["Website","Banking","Bugs"],"ParaBank_Manual_Testing_Report_FINAL.pdf"],
+["Website report","OrangeHRM",["Login and adding an employee, with limits like 30 letters, spaces and very long names.","The Employee Id filled in by the form was often taken, so I wrote it as a possible issue."],["Website","HR","Boundary tests"],"OrangeHRM_Manual_Testing_Report_FINAL.pdf"],
+["Website on a phone","CURA Healthcare",["Exploratory testing of an appointment booking demo on a phone.","10 issues, for example a booking for a date in the past."],["Phone","Exploratory"],"CURA_Healthcare_Mobile_Test_Report_FINAL.pdf"],
+["API report","Swagger Petstore",["Pet endpoints tested with Swagger UI, 11 cases: 10 passed, 1 failed.","The server accepted a pet with a status that is not one of the allowed values."],["API","Swagger UI"],"Swagger_Petstore_API_Testing_Report_FINAL.pdf"],
+["Bug report","Buggy Cars Rating",["7 defects on a car rating site: registration, login and comments.","An abusive comment and a one letter comment were accepted."],["Website","Bug report"],"BuggyCars_Bug_Report_FINAL.pdf"],
+["Jira","Buggy Cars in Jira",["The same 7 bugs as Jira tickets, BCBT-1 to BCBT-7.","The severities match the bug report."],["Jira","Tickets"],"BuggyCars_Jira_Tickets.pdf"],
+["API report","Website status check",["Three GET requests to saucedemo.com with Mini Postman.","I only wrote what the responses showed and did not guess the reason."],["API","Postman"],"Mini_Postman_Status_Check_Report.pdf"]];
+var tb=document.getElementById("tabs"),bd=document.getElementById("tabbody");
+function show(i){var bs=tb.children;for(var k=0;k<bs.length;k++)bs[k].className=k===i?"on":"";bd.innerHTML=tabs[i][1].map(function(t){return "<li>"+t+"</li>"}).join("")}
+tabs.forEach(function(t,i){var b=document.createElement("button");b.textContent=t[0];b.onclick=function(){show(i)};tb.appendChild(b)});show(0);
+document.getElementById("cards").innerHTML=cards.map(function(c){return '<div class="card"><div class="tag mono">'+c[0]+'</div><h4>'+c[1]+'</h4><ul>'+c[2].map(function(x){return "<li>"+x+"</li>"}).join("")+'</ul><div class="chips">'+c[3].map(function(x){return "<span>"+x+"</span>"}).join("")+'</div><a class="v" href="'+R+c[4]+'">View report &#8599;</a></div>'}).join("");
+</script>
+</body>
+</html>
