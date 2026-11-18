@@ -71,7 +71,7 @@ footer{max-width:860px;margin:0 auto;padding:40px 20px 56px;font-size:.88rem;tex
 <section id="reports">
 <h3 class="sec"><span class="mono">02.</span>Reports I Have Written</h3>
 <div class="cards" id="cards"></div>
-<p style="margin-top:22px"><a href="https://github.com/adan440/QA-Portfolio/blob/HEAD/00_Portfolio_Summary%20%281%29.pdf">One page overview (PDF)</a></p>
+<p style="margin-top:22px"><a href="00_Portfolio_Summary%20%281%29.pdf" target="_blank" rel="noopener">One page overview (PDF)</a></p>
 </section>
 
 <section id="about">
@@ -113,7 +113,7 @@ footer{max-width:860px;margin:0 auto;padding:40px 20px 56px;font-size:.88rem;tex
 </main>
 <footer>All testing was done by me, by hand, on my phone. I used AI tools to help with the layout and wording of these documents.</footer>
 <script>
-var R="https://github.com/adan440/QA-Portfolio/blob/HEAD/";
+var R="";
 var tabs=[
 ["Websites",[
 "<b>SauceDemo:</b> 23 test cases on login, products, cart and checkout, all passed. Also written as a test case table.",
@@ -146,7 +146,7 @@ var cards=[
 var tb=document.getElementById("tabs"),bd=document.getElementById("tabbody");
 function show(i){var bs=tb.children;for(var k=0;k<bs.length;k++)bs[k].className=k===i?"on":"";bd.innerHTML=tabs[i][1].map(function(t){return "<li>"+t+"</li>"}).join("")}
 tabs.forEach(function(t,i){var b=document.createElement("button");b.textContent=t[0];b.onclick=function(){show(i)};tb.appendChild(b)});show(0);
-document.getElementById("cards").innerHTML=cards.map(function(c){return '<div class="card"><div class="tag mono">'+c[0]+'</div><h4>'+c[1]+'</h4><ul>'+c[2].map(function(x){return "<li>"+x+"</li>"}).join("")+'</ul><div class="chips">'+c[3].map(function(x){return "<span>"+x+"</span>"}).join("")+'</div><a class="v" href="'+R+c[4]+'">View report &#8599;</a></div>'}).join("");
+document.getElementById("cards").innerHTML=cards.map(function(c){return '<div class="card"><div class="tag mono">'+c[0]+'</div><h4>'+c[1]+'</h4><ul>'+c[2].map(function(x){return "<li>"+x+"</li>"}).join("")+'</ul><div class="chips">'+c[3].map(function(x){return "<span>"+x+"</span>"}).join("")+'</div><a class="v" target="_blank" rel="noopener" href="'+R+c[4]+'">View report &#8599;</a></div>'}).join("");
 </script>
 </body>
 </html>
